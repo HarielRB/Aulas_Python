@@ -1,0 +1,6 @@
+print('Conversor de Moedas')
+n = float(input('Quantos reais você tem na carteira? R$'))
+print('Com R${:.2f} você pode comprar ${}'.format(n, n/5.84))
+print('{:.2f} euros'.format(n/6.31))
+print('{:.2f} ienes'.format(n/0.054))
+print('E {:.2f} rublos'.format(n/0.079))

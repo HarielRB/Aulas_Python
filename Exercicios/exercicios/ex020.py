@@ -1,0 +1,22 @@
+import random
+from time import sleep
+print('\033[1;36m''Olá Coordenas do Junsari!!!''\033[m')
+print('Hoje será sorteado a ordem de lives dos grupos!')
+g1 = str(input('Grupo um:')).strip().upper()
+g2 = str(input('Grupo dois:')).strip().upper()
+g3 = str(input('Grupo três:')).strip().upper()
+g4 = str(input('Grupo quatro:')).strip().upper()
+g5 = str(input('Grupo cinco:')).strip().upper()
+print('\033[1;33m''----''\033[m' * 20)
+print('\033[1;35m''Sorteando....''\033[m')
+print('\033[1;33m''----''\033[m' * 20)
+sleep(3)
+c = [g1, g2, g3, g4, g5]
+seq = random.sample(c, 5)
+print('A ordem será: ')
+print('\033[1;34m''09/08/2020 - Grupo do(a) {}.'.format(seq[0]))
+print('16/08/2020 - Grupo do(a) {}.'.format(seq[1]))
+print('23/08/2020 - Grupo do(a) {}.'.format(seq[2]))
+print('06/09/2020 - Grupo do(a) {}.'.format(seq[3]))
+print('13/09/2020 - Grupo do(a) {}.''\033[m'.format(seq[4]))
+print('\033[1;32m''Boa Sorte Coordenas!''\033[m')

@@ -1,0 +1,10 @@
+from time import sleep
+print('Insira alguns números:')
+n1 = float(input('Número inteiro:'))
+n2 = float(input('Número inteiro:'))
+n3 = float(input('Número Real:'))
+print('Realizando alguns calculos...')
+sleep(5)
+print('O produto do dobro do primeiro com metade do segundop equivale a {}'.format((n1 * 2) + (n2 / 2)))
+print('A soma do triplo do primeiro  com o terceiro corresponde á {}'.format((n1 * 3) + n3))
+print('O terceiro elevado ao cubo corresponde á {}'.format(n3 ** 3))

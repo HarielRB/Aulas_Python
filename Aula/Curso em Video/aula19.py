@@ -1,0 +1,10 @@
+pessoas = {'nomes': 'Hariel', 'idade': 21, 'sexo': 'Masculino'}
+print(pessoas)
+print(pessoas['nomes'])
+print('As Keys são: ')
+print(pessoas.keys())
+print('Os valores são: ')
+print(pessoas.values())
+print('Os itens são: ')
+print(pessoas.items())
+print(f'O {pessoas["nomes"]} tem {pessoas["idade"]} anos e é do sexo {pessoas["sexo"]}')
